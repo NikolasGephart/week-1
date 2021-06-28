@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="theme.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 </head>
 
@@ -42,8 +43,11 @@
     <div class="row">
       <div class="col">
         <!--TODO need to color navbar and add icon-->
-        <nav class=" sticky-top navbar bg-secondary">
-          <a href="#" class="navbar-brand">Bumble Bee Nails</a>
+        <nav class="navbar fixed-top navbar-dark">
+          <a class="material-icons nav-link " href="#about
+          ">home</a>
+          <p>Bumble Bee Lashes</p>
+
         </nav>
       </div>
     </div>
@@ -55,49 +59,113 @@
     4th - Reviews split into 3 cards with text
   -->
   <!--STUB Main-->
-  <main class="container-fluid">
-    <!--STUB 1st Bookings-->
-    <div class="row hero-img">
-      <div class="col col-lg-4 d-flex flex-column justify-content-center offset-lg-1" id="booking">
-        <div class="row">
-          <div class="col col-12">bookings</div>
+  <main>
+    <div class="container-fluid">
+      <!--STUB 1st Bookings-->
+      <div class="row row-lg-12 hero-img">
+        <div class="col-6" id="booking">
+          <form>
+            <div class="row bg-dark">
+              <div class="col form-group">
+                <label for="">Make an Appointment</label>
+                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+                <small id="emailHelpId" class="form-text text-muted">E-Mail</small>
+              </div>
+
+              <div class="col form-group">
+                <label for=""></label>
+                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Help text</small>
+              </div>
+
+              <div class="col form-group">
+                <label for=""></label>
+                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Help text</small>
+              </div>
+
+              <div class="col form-group">
+                <label for=""></label>
+                <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+                <small id="helpId" class="text-muted">Help text</small>
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+                <button type="submit">Book Now!</button>
+              </div>
+          </form>
         </div>
       </div>
+
       <div class="col col-lg-4 d-flex justify-content-center offset-lg-1">
-        <p style="color: blueviolet;">form</p>
+        <p style="color: blueviolet;">Book an appointment</p>
       </div>
     </div>
 
     <!--STUB Prices-->
-    <div class="row">
-      <div class="col"></div>
-      <div class="col"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div>
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-pills card-header-pills">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active pill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled pill</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Body</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
     </div>
 
     <!--STUB About-->
-    <div class="row">
-      <div class="col col-lg-4">pic here</div>
-      <!--Position absolute card to get it to spill over row-->
-      <div class="col col-lg-8">Description</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-lg-4">pic here</div>
+        <!--Position absolute card to get it to spill over row-->
+        <div class="col col-lg-8">Description</div>
+      </div>
     </div>
 
     <!--STUB Reviews-->
-    <div class="row">
-      <div class="col">
-        <div>
-          <p>review</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div>
+            <p>review</p>
+          </div>
         </div>
-      </div>
-      <!--TODO This Review will be in middle on lg screen and top on mobile
+        <!--TODO This Review will be in middle on lg screen and top on mobile
       -->
-      <div class="col">
-        <div>
-          <p>review</p>
+        <div class="col">
+          <div>
+            <p>review</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div>
-          <p>review</p>
+        <div class="col">
+          <div>
+            <p>review</p>
+          </div>
         </div>
       </div>
     </div>
@@ -107,7 +175,7 @@
   </main>
 
   <!--NOTE Footer will have TWO rows 
-  TOP row will have head text and internal text below head text
+  TOP row will have head text and internal text below head textfle
   BOTTOM row copywright made with _____ powered by codeworks and will have follow icons ex. INSTAGRAM TWITTER FACEBOOK SNAPCHAT 
   -->
   <!--STUB Footer-->
